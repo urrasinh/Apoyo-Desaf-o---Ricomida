@@ -12,7 +12,7 @@ body * {
     box-sizing: border-box;
 }
 
-h1{
+h1 {
     font-family: 'Cabin';
     font-size: 25px;
     font-weight: 700;
@@ -21,7 +21,7 @@ h1{
 }
 
 
-h2{
+h2 {
     font-family: 'Cabin';
     font-size: 25px;
     font-weight: 700;
@@ -37,22 +37,72 @@ h3 {
     font-size: 16px;
 }
 
+h4 {
+    font-family: 'Cabin';
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
 hr {
     height: 1px;
 
     background-color: black;
-  }
+}
+
+p {
+    padding: 25px;
+}
 
 .espacio {
     margin-top: 100px;
-}  
-
-.navbar {
-    background-color: #373A3C;
 }
 
-.navbar-brand{
+.navbar {
+    background: #373A3C
+}
+
+.navbar-brand {
     font-family: 'Lobster';
     font-size: 37px;
+    color: #ffffff;
+}
+
+.navbar-brand-footer {
+    font-family: 'Lobster';
+
+}
+
+footer {
+    text-align: center;
+    background-color: #DC3545;
+    color: #ffffff;
+
+}
+
+.alinear {
+    display: inline-block
+}
+
+@media (min-width:600px) {
+    body {
+        text-align: left;
+        align-items: center;
+    }
+}
+
+@media (min-width:600px) { 
+    .mq {
+
+        align-items: center;
+    }
+}
+
+@media (max-widht:600px) {
+    .escritorio {
+        padding-right: 100px;
+    }
+    
 }
 
